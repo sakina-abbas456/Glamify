@@ -3,7 +3,7 @@ const products = [
     // Add your 70 products here. Example:
     {
         name: "keratin classic shampoo",
-        image: "images/product1.jpg",
+        image: ""C:\Users\Malaica1\Downloads\WhatsApp Image 2025-07-11 at 8.30.53 PM.jpeg"",
         description: "keratin smooths cells which means more managable hair and less frizz 
             450ml,
         price: "650"
