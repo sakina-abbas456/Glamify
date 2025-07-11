@@ -4,7 +4,7 @@ const products = [
     <!-- inside your page's product loop -->
 <div class="product">
   <h2>keratin classic conditioner</h2>
-  <img src="<img src="https://i.ebayimg.com/images/g/…/s-l1600.jpg" 
+  <img src="https://i.ebayimg.com/images/g/…/s-l1600.jpg" 
      alt="Keratin Classic Shampoo 400 ml purple bottle">
 ">
   <p>promote smooth, straight, sleek hair.</p>
