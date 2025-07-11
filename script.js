@@ -26,16 +26,4 @@ const products = [
     // ...add all your 70 products in this array
 ];
 
-// --- Render products ---
-const gallery = document.getElementById("product-gallery");
-products.forEach(product => {
-    const card = document.createElement("div");
-    card.className = "product-card";
-    card.innerHTML = `
-        <img src="${product.image}" alt="${product.name}">
-        <div class="product-name">${product.name}</div>
-        <div class="product-desc">${product.description}</div>
-        <div class="product-price">${product.price}</div>
-    `;
-    gallery.appendChild(card);
-});
+
