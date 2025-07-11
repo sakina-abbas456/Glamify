@@ -81,6 +81,7 @@ const products = [
   },
   {
     name: "Derma Gold Facial Kit",
+     image: "C:\Users\Malaica1\Downloads\shampoo.jpeg",
     description: "Brightening and anti-aging facial treatment.",
     price: "1230"
   },
