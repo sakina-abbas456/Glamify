@@ -4,8 +4,7 @@ const products = [
   
   {
     name: "Keratin Classic Shampoo",
-    image:<img src="https://kiwla.com/products/Keratin-Shampoo-400ml/image.png" 
-     alt="Keratin Classic Shampoo 400ml – purple bottle">,  
+    image:"D:\Images\keratin classic shampoo.jpg"
     description: "For smooth, straight, sleek hair.",
     price: "650"
   },
