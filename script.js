@@ -1,17 +1,18 @@
-// --- Product Data (replace with your actual products and images) ---
+
 const products = [
     // Add your 70 products here. Example:
     {
-        name: "Rose Glow Face Cream",
+        name: "keratin classic sonditioner",
         image: "images/product1.jpg",
-        description: "Hydrating cream for glowing skin.",
-        price: "$15"
+        description: "promote smooth, straight, sleek hair.",
+        price: "650"
     },
     {
-        name: "Silky Hair Serum",
+        name: "keratin classic shampoo",
         image: "images/product2.jpg",
-        description: "Nourishes and smoothens hair.",
-        price: "$12"
+        description: "Nourishes and smoothens hair,
+            400ml.",
+        price: "650"
     },
     // ...add all your 70 products in this array
 ];
