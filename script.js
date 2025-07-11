@@ -1,21 +1,15 @@
 
 const products = [
-    // Add your 70 products here. Example:
-    {
-        name: "keratin classic sonditioner",
-        image: "images/product1.jpg",
-        description: "promote smooth, straight, sleek hair.",
-        price: "650"
-    },
-    {
-        name: "keratin classic shampoo",
-        image: "images/product2.jpg",
-        description: "Nourishes and smoothens hair,
-            400ml.",
-        price: "650"
-    },
-    // ...add all your 70 products in this array
-];
+    // Add your 70 products here. Example
+    <!-- inside your page's product loop -->
+<div class="product">
+  <h2>keratin classic conditioner</h2>
+  <img src="images/conditioner2.jpg" alt="keratin classic conditioner">
+  <p>promote smooth, straight, sleek hair.</p>
+  <p>Price: ₹650</p>
+</div>
+
+    
 
 // --- Render products ---
 const gallery = document.getElementById("product-gallery");
