@@ -1,4 +1,5 @@
-
+document.addEventListener('DOMContentLoaded', () => {
+  const gallery = document.getElementById("product-gallery");
 const products = [
   
   {
