@@ -4,7 +4,7 @@ const products = [
     <!-- inside your page's product loop -->
 <div class="product">
   <h2>keratin classic conditioner</h2>
-  <img src="C:\Users\Malaica1\Downloads\conditioner (2).jpeg" alt="keratin classic conditioner">
+  <img src="C:\Users\Malaica1\Desktop\5oy5auw7ycjy.jpg">
   <p>promote smooth, straight, sleek hair.</p>
   <p>Price: 650</p>
 </div>
