@@ -4,7 +4,7 @@ const products = [
   
   {
     name: "Keratin Classic Shampoo",
-    image: "image/shampoo.jpeg
+   <img src="images/shampoo.jpeg"alt="shampoo">
     description: "For smooth, straight, sleek hair.",
     price: "650"
   },
