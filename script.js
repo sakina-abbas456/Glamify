@@ -2,16 +2,30 @@
 const products = [
     // Add your 70 products here. Example:
     {
-        name: "Rose Glow Face Cream",
+        name: "keratin classic shampoo",
         image: "images/product1.jpg",
-        description: "Hydrating cream for glowing skin.",
-        price: "$15"
+        description: "keratin smooths cells which means more managable hair and less frizz 
+            450ml,
+        price: "650"
     },
     {
-        name: "Silky Hair Serum",
+        name: "keratin classic condtioner",
         image: "images/product2.jpg",
-        description: "Nourishes and smoothens hair.",
-        price: "$12"
+        description: "promote smooth , straight, sleek hair.
+            400ml",
+        price: "650"
+    },
+        {
+        name: "mocallure",
+        image: "images/product2.jpg",
+        description: "make your beauty visible".,
+        price: "1800"
+    },
+            {
+        name: "matte lip gloss",
+        image: "images/product2.jpg",
+        description:" non-stick cup lip gloss",
+        price: "150"
     },
     // ...add all your 70 products in this array
 ];
