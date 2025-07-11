@@ -1,15 +1,14 @@
 
 const products = [
-    // Add your 70 products here. Example
-    <!-- inside your page's product loop -->
-<div class="product">
-  <h2>keratin classic conditioner</h2>
-  <img src="https://i.ebayimg.com/images/g/…/s-l1600.jpg" 
-     alt="Keratin Classic Shampoo 400 ml purple bottle">
-">
-  <p>promote smooth, straight, sleek hair.</p>
-  <p>Price: 650</p>
-</div>
+  
+  {
+    name: "Keratin Classic Shampoo",
+    image: "images/keratin-shampoo-400ml.jpg",  
+    description: "For smooth, straight, sleek hair.",
+    price: "650"
+  }
+];
+
 
     
 
