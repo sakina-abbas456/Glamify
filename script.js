@@ -3,27 +3,23 @@ const products = [
     // Add your 70 products here. Example:
     {
         name: "keratin classic shampoo",
-        image: "C:\Users\Malaica1\Downloads\shampoo.jpeg",
         description: "keratin smooths cells which means more managable hair and less frizz 
-            450ml,
+            450ml",
         price: "650"
     },
     {
         name: "keratin classic condtioner",
-        image: "C:\Users\Malaica1\Downloads\conditioner (2).jpeg",
         description: "promote smooth , straight, sleek hair.
             400ml",
         price: "650"
     },
         {
         name: "mocallure",
-        image: "C:\Users\Malaica1\Downloads\mocallure.jpeg",
-        description: "make your beauty visible".,
+        description: "make your beauty visible",
         price: "1800"
     },
             {
         name: "matte lip gloss",
-        image: "C:\Users\Malaica1\Downloads\lipgloss.jpeg",
         description:" non-stick cup lip gloss",
         price: "150"
     },
