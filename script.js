@@ -4,7 +4,8 @@ const products = [
   
   {
     name: "Keratin Classic Shampoo",
-    image: "C:\Users\Malaica1\Downloads\shampoo.jpeg",  
+    image:<img src="https://kiwla.com/products/Keratin-Shampoo-400ml/image.png" 
+     alt="Keratin Classic Shampoo 400ml – purple bottle">,  
     description: "For smooth, straight, sleek hair.",
     price: "650"
   },
