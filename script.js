@@ -5,12 +5,14 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: "Keratin Classic Shampoo",
       description: "For smooth, straight, sleek hair.",
-      price: "650"
+      price: "650",
+      image: "keratin classic shampoo.jpg"
     },
     {
       name: "Keratin Classic Conditioner",
       description: "Nourishes and smooths hair for a sleek finish.",
-      price: "650"
+      price: "650",
+      image: "keratin classic conditioner.jpg"
     }
     // Add more products...
   ];
