@@ -29,6 +29,45 @@ document.addEventListener('DOMContentLoaded', () => {
       price: "1900",
       image: "eyeshadow kit.jpg"
     },
+     {
+      name: "matte lip gloss",
+      description: "Creamy texture with a soft matte glow.",
+      price: "150",
+      image: "matte lip gloss.jpg"
+    },
+    {
+      name: "deep hydration spa kit",
+      description: "Nourishes and revitalizes dry skin with intense moisture.",
+      price: "1000",
+      image: "deep hydration spa kit.jpg"
+    },
+    {
+      name: "soap",
+      description: "Gently cleanses and refreshes your skin.",
+      price: "320",
+      image: "soap.jpg"
+    },
+    {
+      name: "gluta white night cream 'acne care'",
+      description: "Reduces breakouts and soothes skin overnight.",
+      price: "500",
+      image: "gluta white night cream 'acne care'.jpg"
+    },
+     {
+      name: "gluta white night cream 'skin whitening anit-aging'",
+      description: "Whitens skin and reduces signs of aging overnight.",
+      price: "500",
+      image: "gluta white night cream 'skin whitening anit-aging'.jpg"
+    },
+    {
+      name: "make-up kit (sunisa foundation , pack of eyeshadow , bene tint)",
+      description: "Complete makeup kit with foundation, eyeshadow, and lip & cheek tint for a flawless look.",
+      price: "11,00",
+      image: "make-up kit (sunisa foundation , pack of eyeshadow , bene tint.jpg"
+    }
+    
+    
+    
     
     // Add more products...
     
