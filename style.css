@@ -79,13 +79,14 @@ nav a:hover {
     transform: translateY(-4px) scale(1.03);
     box-shadow: 0 6px 16px #0002;
 }
-
 .product-card img {
     width: 100%;
-    height: 140px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
+    max-height: 200px;
     border-radius: 8px;
     margin-bottom: 8px;
+    background-color: #fff;
 }
 
 .product-name {
