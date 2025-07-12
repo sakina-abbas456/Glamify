@@ -1,50 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const gallery = document.getElementById("product-gallery");
-  const cartItems = document.getElementById("cart-items");
-  const cartTotal = document.getElementById("cart-total");
-  let cart = [];
-
-  function updateCart() {
-    cartItems.innerHTML = '';
-    let total = 0;
-    cart.forEach((item, index) => {
-      total += parseFloat(item.price);
-      const li = document.createElement("li");
-      li.textContent = `${item.name} - Rs. ${item.price}`;
-      const removeBtn = document.createElement("button");
-      removeBtn.textContent = "❌";
-      removeBtn.onclick = () => {
-        cart.splice(index, 1);
-        updateCart();
-      };
-      li.appendChild(removeBtn);
-      cartItems.appendChild(li);
-    });
-    cartTotal.textContent = total.toFixed(0);
-  }
-
-  products.forEach(product => {
-    const card = document.createElement("div");
-    card.className = "product-card";
-    card.innerHTML = `
-      <img src="${product.image}" alt="${product.name}">
-      <div class="product-name">${product.name}</div>
-      <div class="product-desc">${product.description}</div>
-      <div class="product-price">Rs. ${product.price}</div>
-      <button class="add-to-cart-btn">Add to Cart</button>
-    `;
-
-    const button = card.querySelector(".add-to-cart-btn");
-    button.addEventListener("click", () => {
-      cart.push(product);
-      updateCart();
-    });
-
-    gallery.appendChild(card);
-  });
-});
-
-  const products = [
+  const gallery = document.getElementById("product-gallery")
+    const products = [
     {
       name: "Keratin Classic Shampoo",
       description: "For smooth, straight, sleek hair.",
