@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       price: "650",
       image: "keratin classic conditioner.jpg"
      
-    },
+    }
     // Add more products...
     
   ];
