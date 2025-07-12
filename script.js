@@ -14,6 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
       price: "650",
       image: "keratin classic conditioner.jpg"
     }
+    {
+      name: "Moc❤️Allure",
+      description: "All-in-one eyeshadow palette with rich, blendable shades.",
+      price: "1800",
+      image: "mocallure.jpg"
+     
+    }
     // Add more products...
   ];
 
