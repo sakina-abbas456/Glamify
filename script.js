@@ -22,7 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
       price: "650",
       image: "keratin classic conditioner.jpg"
      
-    }
+    },
+    {
+      name: "eyeshadow kit",
+      description: "High-pigment eyeshadows for bold and natural style.",
+      price: "1900",
+      image: "eyeshadow kit.jpg"
+    },
+    
     // Add more products...
     
   ];
