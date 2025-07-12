@@ -64,12 +64,49 @@ document.addEventListener('DOMContentLoaded', () => {
       description: "Complete makeup kit with foundation, eyeshadow, and lip & cheek tint for a flawless look.",
       price: "11,00",
       image: "make-up kit (sunisa foundation , pack of eyeshadow , bene tint.jpg"
+    },
+    {
+      name: "make-up brush",
+      description: "Perfect for blending foundation, blush, or powder.",
+      price: "each 235",
+      image: "make-up brush.jpg"
+    },
+    {
+      name: "derma face wash kit",
+      description: "Cleanses deeply to remove dirt, oil, and impurities.",
+      price: "1480",
+      image: "derma face wash kit.jpg"
+    },
+     {
+      name: "urgent facial (300 gram)",
+      description: "Instant glow and hydration in just one facial.",
+      price: "625",
+      image: "urgent facial.jpg"
+    },
+    {
+      name: "urgent facial 2 (300 gram)",
+      description: "Instant glow and hydration in just one facial.",
+      price: "625",
+      image: "urgent facial 2.jpg"
+    },
+    {
+      name: "lemon face wash",
+      description: "Infused with lemon to refresh and brighten your skin.",
+      price: "425",
+      image: "lemon face wash.jpg"
+    },
+    {
+      name: "ordinary face kit deal",
+      description: "Complete skincare kit from The Ordinary for clear, healthy skin.",
+      price: "850",
+      image: "ordinary face kit deal.jpeg"
     }
     
     
     
     
-    // Add more products...
+    
+ // Add more products...
     
   ];
 
