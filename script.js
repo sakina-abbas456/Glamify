@@ -15,6 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
       price: "1800",
       image: "mocallure.jpg"
      
+    },
+     {
+      name: "keratin classic conditioner",
+      description: "nourishes and smooths hair for a sleek finish.",
+      price: "650",
+      image: "keratin classic conditioner.jpg"
+     
     }
     // Add more products...
     
