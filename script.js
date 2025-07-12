@@ -4,13 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const products = [
     {
       name: "Keratin Classic Shampoo",
-      image: "images/shampoo.jpeg",
       description: "For smooth, straight, sleek hair.",
       price: "650"
     },
     {
       name: "Keratin Classic Conditioner",
-      image: "images/conditioner.jpeg",
       description: "Nourishes and smooths hair for a sleek finish.",
       price: "650"
     }
