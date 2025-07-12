@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const gallery = document.getElementById("product-gallery")
-    const products = [
+  const products = [
     {
       name: "Keratin Classic Shampoo",
       description: "For smooth, straight, sleek hair.",
