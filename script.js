@@ -8,12 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
       price: "650",
       image: "keratin classic shampoo.jpg"
     },
-    {
-      name: "Keratin Classic Conditioner",
-      description: "Nourishes and smooths hair for a sleek finish.",
-      price: "650",
-      image: "keratin classic conditioner.jpg"
-    }
+    
     {
       name: "Moc❤️Allure",
       description: "All-in-one eyeshadow palette with rich, blendable shades.",
