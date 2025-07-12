@@ -17,6 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
      
     }
     // Add more products...
+    {
+      name: "keratin classic conditioner",
+      description: "Nourishes and smooths hair for a sleek finish.",
+      price: "650",
+      image: "keratin classic conditioner.jpg"
+     
+    },
   ];
 
   products.forEach(product => {
