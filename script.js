@@ -229,17 +229,18 @@ document.addEventListener('DOMContentLoaded', () => {
     
   ];
  products.forEach(product => {
-    const card = document.createElement("div");
-    card.className = "product-card";
-    card.innerHTML = 
-      <img src="${product.image}" alt="${product.name}">
-      <div class="product-name">${product.name}</div>
-      <div class="product-desc">${product.description}</div>
-      <div class="product-price">Rs. ${product.price}</div>
-    ;
-    gallery.appendChild(card);
-  });
+  const card = document.createElement("div");
+  card.className = "product-card";
+  card.innerHTML = `
+    <img src="${product.image}" alt="${product.name}">
+    <div class="product-name">${product.name}</div>
+    <div class="product-desc">${product.description}</div>
+    <div class="product-price">Rs. ${product.price}</div>
+    <button class="add-to-cart-btn" data-name="${product.name}" data-price="${product.price}">Add to Cart</button>
+  `;
+  gallery.appendChild(card);
 });
+
 document.addEventListener("click", (e) => {
   if (e.target.classList.contains("add-to-cart-btn")) {
     const name = e.target.dataset.name;
