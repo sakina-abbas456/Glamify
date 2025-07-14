@@ -230,17 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
     gallery.appendChild(card);
   });
 });
-displayProducts(products);
-
-searchBox.addEventListener("input", () => {
-    const keyword = searchBox.value.toLowerCase();
-    const filtered = products.filter(p =>
-      p.name.toLowerCase().includes(keyword) ||
-      p.description.toLowerCase().includes(keyword)
-    );
-    displayProducts(filtered);
-  });
-});
+  
 
 document.addEventListener("click", (e) => {
   if (e.target.classList.contains("add-to-cart-btn")) {
