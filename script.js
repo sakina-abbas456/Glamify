@@ -214,31 +214,21 @@ document.addEventListener('DOMContentLoaded', () => {
       price: "400",
       image: "mascara.jpg"
     }
-  
-    
-   
-  
-    
-    
-    
-    
-    
-    
-    
+     
  // Add more products...
-    
-  ];
- products.forEach(product => {
-  const card = document.createElement("div");
-  card.className = "product-card";
-  card.innerHTML = `
-    <img src="${product.image}" alt="${product.name}">
-    <div class="product-name">${product.name}</div>
-    <div class="product-desc">${product.description}</div>
-    <div class="product-price">Rs. ${product.price}</div>
-    <button class="add-to-cart-btn" data-name="${product.name}" data-price="${product.price}">Add to Cart</button>
-  `;
-  gallery.appendChild(card);
+];
+  products.forEach(product => {
+    const card = document.createElement("div");
+    card.className = "product-card";
+    card.innerHTML = `
+      <img src="${product.image}" alt="${product.name}">
+      <div class="product-name">${product.name}</div>
+      <div class="product-desc">${product.description}</div>
+      <div class="product-price">Rs. ${product.price}</div>
+      <button class="add-to-cart-btn" data-name="${product.name}" data-price="${product.price}">Add to Cart</button>
+    `;
+    gallery.appendChild(card);
+  });
 });
 
 document.addEventListener("click", (e) => {
@@ -259,5 +249,5 @@ document.addEventListener("click", (e) => {
     alert(`${name} added to cart!`);
   }
 });
-
- 
+    
+  
