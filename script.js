@@ -228,16 +228,35 @@ document.addEventListener('DOMContentLoaded', () => {
  // Add more products...
     
   ];
-
-  products.forEach(product => {
+ products.forEach(product => {
     const card = document.createElement("div");
     card.className = "product-card";
-    card.innerHTML = `
+    card.innerHTML = 
       <img src="${product.image}" alt="${product.name}">
       <div class="product-name">${product.name}</div>
       <div class="product-desc">${product.description}</div>
       <div class="product-price">Rs. ${product.price}</div>
-    `;
+    ;
     gallery.appendChild(card);
   });
 });
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("add-to-cart-btn")) {
+    const name = e.target.dataset.name;
+    const price = parseFloat(e.target.dataset.price);
+
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const existing = cart.find(item => item.name === name);
+
+    if (existing) {
+      existing.quantity += 1;
+    } else {
+      cart.push({ name, price, quantity: 1 });
+    }
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+    alert(`${name} added to cart!`);
+  }
+});
+
+ 
