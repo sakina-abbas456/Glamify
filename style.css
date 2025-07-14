@@ -120,3 +120,37 @@ footer {
     color: #fff;
     letter-spacing: 1px;
 }
+.cart-section {
+    padding: 40px 32px;
+    background: #fff;
+}
+
+.cart-item {
+    margin-bottom: 16px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fefefe;
+}
+
+.cart-item button {
+    background: #e26a6a;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.cart-item button:hover {
+    background: #b34c4c;
+}
+
+.cart-total {
+    margin-top: 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e26a6a;
+}
+
