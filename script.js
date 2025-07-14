@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
       name: "gluta white night cream 'acne care'",
       description: "Reduces breakouts and soothes skin overnight.",
       price: "500",
-      image: "gluta white night cream 'acne care'.jpg"
+      image: "gluta white cream 'acne care.jpg"
     },
      {
       name: "gluta white night cream 'skin whitening anit-aging'",
