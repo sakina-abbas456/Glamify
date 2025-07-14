@@ -98,8 +98,35 @@
       name,
       phone,
       address,
-      cart
+      cart 
     };
+          // Send order to WhatsApp
+    const itemsText = cart
+      .map(i => `${i.name} (x${i.quantity}) — Rs.${i.price * i.quantity}`)
+      .join('\n');
+
+    const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+
+    const message = `
+🌟 *New Glamify Order* 🌟
+
+*Name:* ${name}
+*Phone:* ${phone}
+*Address:* ${address}
+
+*Items:*
+${itemsText}
+
+*Total:* Rs.${total.toFixed(2)}
+`.trim();
+
+    const encoded = encodeURIComponent(message);
+    const whatsappNumber = "923232409609"; // 👈 apna WhatsApp number (without +)
+
+    window.open(`https://wa.me/${whatsappNumber}?text=${encoded}`, "_blank");
+
+    
+    
 
     console.log("Order Placed:", orderDetails);
 
