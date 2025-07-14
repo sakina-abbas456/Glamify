@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: "make-up brush",
       description: "Perfect for blending foundation, blush, or powder.",
-      price: "each 235",
+      price: "235",
       image: "make-up brush.jpg"
     },
     {
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: "lip and eye crayon water proof",
       description: "Waterproof crayon for bold lips and defined eyes in one swipe",
-      price: "each 100",
+      price: "100",
       image: "lip and eye crayon water proof.jpg"
     },
      {
