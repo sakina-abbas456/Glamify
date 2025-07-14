@@ -89,6 +89,8 @@
     const name = document.getElementById('customerName').value.trim();
     const phone = document.getElementById('customerPhone').value.trim();
     const address = document.getElementById('customerAddress').value.trim();
+    const transactionId = document.getElementById('transactionId').value.trim();
+
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
 
     if (cart.length === 0) {
