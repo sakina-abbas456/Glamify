@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: "make-up kit (sunisa foundation , pack of eyeshadow , bene tint)",
       description: "Complete makeup kit with foundation, eyeshadow, and lip & cheek tint for a flawless look.",
-      price: "11000",
+      price: "1100",
       image: "make-up kit (sunisa foundation , pack of eyeshadow , bene tint.jpg"
     },
     {
